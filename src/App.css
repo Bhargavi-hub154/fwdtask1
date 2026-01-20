@@ -1,0 +1,31 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   
+  width: 100vw;        
+  background: linear-gradient(180deg, #6968A6, #CF9893);
+}
+
+.card{
+  
+  background-color: thistle;
+  padding: 25px ;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px whitesmoke;
+  text-align: center;
+  margin: 20px;
+
+}
+.button{
+  background-color: #6968A6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button:hover{
+  background-color: #CF9893;
+}
